@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    background-color: #1c1c1c;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p, q{
+    text-align: center;
+    color: #FFFFFF
+}
+
+h2{
+    text-align: center;
+    color:#f5b32f;
+    font-weight: bold;
+}
+
+/* Navbar and footer */
+
+.navbar, .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f5b32f;
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+
+.navbar, .footer{
+    padding: 10px;
+}
+
+.navbar{
+    margin-top: 0px;
+}
+
+.footer{
+    margin-bottom: 0px;
+}
+
+
+
+.navbar a, .footer a{
+    list-style: none;
+    display: inline-block;
+    padding:0 20px;
+    border-right: 1px #1c1c1c solid;
+}
+
+.navbar a:last-child, .footer a:last-child{
+    border-right: none;
+}
+
+a{
+    color:#1c1c1c;
+    font-size: 20pt ;    
+}
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+
+h1{
+    color: #f5b32f;
+    font-weight: bold;
+}
+
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro img{
+    max-width: 750px;
+    width: 100%;
+    height:auto;
+}
+
+
+
+.whatweteach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageslang{
+    display: flex;
+
+}
+
+.imageslang img{
+    max-width: 300px;
+    width: 100%;
+    height:auto;
+}
+
+
+.where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.where img{
+    max-width: 750px;
+    width:100%;
+    height: auto;
+}
+
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.review1{
+    display: flex;
+    align-items: center;
+    gap: 15px;;
+}
+
+.review2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+}
+
+.review1 img, .review2 img  {
+    max-width:350px;
+    width:100%;
+    height: auto;
+}
+
+
+
+.review1 q, .review2 q {
+    max-width: 350px ;
+    width: 100%;
+    height:auto
+}
